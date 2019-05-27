@@ -24,4 +24,12 @@ In the Webpack config add the plugin:
       })
     ]
 
-`pathToTSConfigFile` is the path to the `tsconfig.json` file used for the project.
+### Options
+
+#### Required
+
+- `configFile`: The path to the `tsconfig.json` file used for the project.
+
+#### Optional
+
+- `context`: Provide a context for the TypeScript file paths. The default value is the Webpack `context`.

@@ -10,6 +10,7 @@ class ResolveTSPathsToWebpackAlias {
 
   apply(compiler) {
 
+    const context = this.options.context || compiler.context
     const json = fs.readFileSync(this.options.configFile, 'utf8')
     const tsconfig = stripJsonComments(json)
     const { paths } = JSON.parse(tsconfig).compilerOptions
@@ -18,7 +19,7 @@ class ResolveTSPathsToWebpackAlias {
 
     Object.keys(paths).forEach((item) => {
       const key = item.replace('/*', '')
-      const value = resolve(compiler.context, paths[item][0].replace('/*', '').replace('*', ''))
+      const value = resolve(context, paths[item][0].replace('/*', '').replace('*', ''))
 
       aliases[key] = value
     })
