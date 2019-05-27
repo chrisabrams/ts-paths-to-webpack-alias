@@ -14,7 +14,7 @@ Webpack plugin which resolves TypeScript paths to Webpack alias paths.
 
 In the Webpack config add the plugin:
 
-    const resolveTSPathsToWebpackAlias = require('ts-paths-to-webpack-alias')
+    const ResolveTSPathsToWebpackAlias = require('ts-paths-to-webpack-alias')
 
     /* ...webpack config */
 
