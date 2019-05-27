@@ -12,16 +12,16 @@ Resolve TypeScript paths to Webpack alias paths.
 
 ## Usage
 
-In the `resolve` section of the Webpack config add to the alias object:
+In the Webpack config add the plugin:
 
     const resolveTSPathsToWebpackAlias = require('ts-paths-to-webpack-alias')
 
     /* ...webpack config */
 
-    resolve: {
-      alias: {
-        ...resolveTSPathsToWebpackAlias(pathToTSConfigFile, webpackContext),
-      },
-    },
+    plugins: [
+      new ResolveTSPathsToWebpackAlias({
+        configFile: pathToTSConfigFile
+      })
+    ]
 
-`pathToTSConfigFile` is the path to the `tsconfig.json` file used for the project. `webpackContext` should match the path given to Webpack's `context`.
+`pathToTSConfigFile` is the path to the `tsconfig.json` file used for the project.
