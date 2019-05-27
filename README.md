@@ -1,6 +1,6 @@
 # ts-paths-to-webpack-alias
 
-Resolve TypeScript paths to Webpack alias paths.
+Webpack plugin which resolves TypeScript paths to Webpack alias paths.
 
 ## Install
 
