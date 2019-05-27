@@ -4,11 +4,11 @@ Webpack plugin which resolves TypeScript paths to Webpack alias paths.
 
 ## Install
 
-    yarn add ts-paths-to-webpack-alias
+    yarn add ts-paths-to-webpack-alias --dev
 
     or
 
-    npm install ts-paths-to-webpack-alias
+    npm install ts-paths-to-webpack-alias -D
 
 ## Usage
 
