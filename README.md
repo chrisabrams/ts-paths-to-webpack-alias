@@ -14,6 +14,10 @@ Resolve TypeScript paths to Webpack alias paths.
 
 In the `resolve` section of the Webpack config add to the alias object:
 
+    const resolveTSPathsToWebpackAlias = require('ts-paths-to-webpack-alias')
+
+    /* ...webpack config */
+
     resolve: {
       alias: {
         ...resolveTSPathsToWebpackAlias(pathToTSConfigFile, webpackContext),
