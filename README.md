@@ -20,7 +20,7 @@ In the Webpack config add the plugin:
 
     plugins: [
       new ResolveTSPathsToWebpackAlias({
-        configFile: pathToTSConfigFile
+        tsconfig: pathToTSConfigFile
       })
     ]
 
@@ -28,7 +28,7 @@ In the Webpack config add the plugin:
 
 #### Required
 
-- `configFile`: The path to the `tsconfig.json` file used for the project.
+- `tsconfig`: The path to the `tsconfig.json` file used for the project.
 
 #### Optional
 

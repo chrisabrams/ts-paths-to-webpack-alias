@@ -9,7 +9,7 @@ class ResolveTSPathsToWebpackAlias {
   apply(compiler) {
 
     const aliases = resolveTSPathsToAlias({
-      configFile: this.options.configFile,
+      tsconfig: this.options.tsconfig,
       context: this.options.context || compiler.context,
     })
 

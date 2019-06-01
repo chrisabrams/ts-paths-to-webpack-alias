@@ -1,11 +1,11 @@
 {
   "name": "ts-paths-to-webpack-alias",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "main": "src/index.js",
   "repository": "git@github.com:chrisabrams/ts-paths-to-webpack-alias.git",
   "author": "Chris Abrams <mail@chrisabrams.com>",
   "license": "Apache-2.0",
   "dependencies": {
-    "ts-paths-to-alias-core": "^0.1.0"
+    "ts-paths-to-alias-core": "0.1.1"
   }
 }

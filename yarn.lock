@@ -7,9 +7,9 @@ strip-json-comments@^3.0.1:
   resolved "https://registry.yarnpkg.com/strip-json-comments/-/strip-json-comments-3.0.1.tgz#85713975a91fb87bf1b305cca77395e40d2a64a7"
   integrity sha512-VTyMAUfdm047mwKl+u79WIdrZxtFtn+nBxHeb844XBQ9uMNTuTHdx2hc5RiAJYqwTj3wc/xe5HLSdJSkJ+WfZw==
 
-ts-paths-to-alias-core@^0.1.0:
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/ts-paths-to-alias-core/-/ts-paths-to-alias-core-0.1.0.tgz#c9091f7a57ef5f8c64d24e04e39a86a1fb25bc19"
-  integrity sha512-cWFAZuefii8djQN1GRig1C/Fo9FN1xz/GB+NC11EyZ9GAqzk6KWS32NdsQtZGMnfJSXpt4KmfAL5XVBReTz3vg==
+ts-paths-to-alias-core@0.1.1:
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/ts-paths-to-alias-core/-/ts-paths-to-alias-core-0.1.1.tgz#2ed7c6ab722b3c2f77701d0afd87e087c20c547c"
+  integrity sha512-bYaX/YNGVMSCLatnRh/5XGb9XlefZoPPKm6jpIbsS3LyGHRv8509S8k6WohV9E9Y/o+bjYD4NwLPkLkPTvvOAw==
   dependencies:
     strip-json-comments "^3.0.1"
